@@ -1,20 +1,23 @@
-TOKEN=""
+import os
+
+TOKEN="token"
 PREFIX="!"
-COLOR=[
-    "0;30",
-    "1;30",
-    "0;34",
-    "1;34",
-    "0;32",
-    "1;32",
-    "0;36",
-    "1;36",
-    "0;31",
-    "1;31",
-    "0;35",
-    "1;35",
-    "0;33",
-    "1;33",
-    "0;37",
-    "1;37"
-]
+COLOR={
+    "BLACK": "0;30",
+    "DARK_GRAY": "1;30",
+    "BLUE": "0;34",
+    "LIGHT_BLUE": "1;34",
+    "GREEN": "0;32",
+    "LIGHT_GREEN": "1;32",
+    "CYAN": "0;36",
+    "LIGHT_CYAN": "1;36",
+    "RED": "0;31",
+    "LIGHT_RED": "1;31",
+    "PURPLE": "0;35",
+    "LIGHT_PURPLE": "1;35",
+    "BROWN": "0;33",
+    "YELLOW": "1;33",
+    "LIGHT_GRAY": "0;37",
+    "WHITE": "1;37"
+}
+PATH = os.getcwd()
